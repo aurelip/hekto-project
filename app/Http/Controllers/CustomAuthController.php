@@ -45,7 +45,7 @@ class CustomAuthController extends Controller
 
     public function registration()
     {
-        return view('components.registration');
+        return view('components.register');
     }
 
     public function customRegistration(Request $request)

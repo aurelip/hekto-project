@@ -15,3 +15,6 @@ var swiper = new Swiper('.mySwiper', {
     },
 });
 /*pagination2*/
+function myFunction() {
+    document.getElementById("demo").innerHTML = "Hello World";
+}

@@ -1,6 +1,6 @@
 <header class="py-2 bg-[#7E33E0] w-full h-12">
     <div class="flex place-content-center ">
-        <div class="sm:hidden">
+        <div class="sm:hidden z-10">
             <!--Mobile Version-->
             <ul class="ml-4 text-white flex space-x-5">
                 <li>
@@ -30,13 +30,14 @@
                     </div>
                 </li>
                 <li>
-                    <button type="button" data-modal-toggle="defaultModal" class="flex">Login <svg
+                    <!--login mobile-->
+                    <a href="{{ route('login') }}" type="button" data-modal-toggle="defaultModal" class="flex">Login <svg
                             xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
                             stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round"
                                 d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                         </svg>
-                    </button>
+                    </a>
                     {{-- <div id="defaultModal" tabindex="-1" aria-hidden="true"
                         class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 w-full md:inset-0 h-modal md:h-full">
                         <div class="relative p-4 w-full max-w-2xl h-full md:h-auto">
@@ -160,12 +161,13 @@
                     </div>
                 </li>
                 <li>
-                    <button href="{{ route('login') }}" class="text-white flex">Login <svg
+                    <!--login Desktop-->
+                    <a href="{{ route('login') }}" class="text-white flex">Login <svg
                             xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
                             stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round"
                                 d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a   7 7 0 00-7-7z" />
-                        </svg></button>
+                        </svg></a>
 
                 </li>
                 <li>

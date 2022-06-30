@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CustomAuthController;
+use App\Http\Controllers\ItemController;
 
 
 use function PHPUnit\Framework\returnSelf;
@@ -19,17 +20,19 @@ use function PHPUnit\Framework\returnSelf;
 
 
 
+// Route::get('/', function () {
+//     return view('index');
+// });
+// Route::get('/', [ItemController::class,'index'])->name('item');
+// Route::get('/homepage', 'Itemcontroller@item')->name('Items');
+// Route::get('/homepage' , 'ItemController@item')->name('Items');
+
 Route::get('/', function () {
     return view('homepage');
-});
-
-Route::get('/shopgrid', function () {
-    return view('shopgrid');
 });
 Route::get('/shoplist', function () {
     return view('shoplist');
 });
-
 Route::get('/ordercompleted', function () {
     return view('ordercompleted');
 });
@@ -41,6 +44,9 @@ Route::get('/contactpage' , function () {
 });
 Route::get('/login' , function () {
     return view('login');
+});
+Route::get('/register' , function () {
+    return view('register');
 });
 Route::get('login', [CustomAuthController::class, 'index'])->name('login');
 Route::post('custom-login', [CustomAuthController::class, 'customLogin'])->name('login.custom');

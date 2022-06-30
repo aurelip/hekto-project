@@ -15,6 +15,8 @@
         },
     });
       </script>
+
+      
       <style>
         .swiper-pagination-bullet {
             border-radius: 0px;
