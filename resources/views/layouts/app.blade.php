@@ -16,8 +16,10 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <script defer src="path_to_js/idangerous.swiper-2.x.min.js "></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js "></script>
+
     <script src="https://unpkg.com/flowbite@1.4.5/dist/flowbite.js "></script>
     <script src="main.js "></script>
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.js" defer></script>
 </head>
 <body> 
         <x-header/>

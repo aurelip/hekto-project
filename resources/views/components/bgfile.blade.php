@@ -1,7 +1,6 @@
  <!--Promotion Bg-->
 <!--Swiper--> 
-<div class=" s1 mt-6 bg-[#F2F0FF] max-w-full 2xl:h-[764px] h-[700px] md:h-[800px] md:full ">
-    <div class="">
+<div class=" mt-6 bg-[#F2F0FF] max-w-full 2xl:h-[764px] h-[700px] md:h-[800px] md:full ">
         <div class="grid grid-cols-1 sm:grid-cols-2 ">
             <img class="absolute ml-5 2xl:ml-[70px] " src="img\image32.png " alt=" ">
             <div class="mt-96 text-center 2xl:ml-[375px] 2xl:mt-[300px] ">
@@ -12,5 +11,4 @@
             </div>
             <img class="mt-10 " src="img\sofaheheader.png " alt=" ">
         </div>
-    </div>
 </div>

@@ -23,9 +23,9 @@ use function PHPUnit\Framework\returnSelf;
 // Route::get('/', function () {
 //     return view('index');
 // });
-// Route::get('/', [ItemController::class,'index'])->name('item');
-// Route::get('/homepage', 'Itemcontroller@item')->name('Items');
-// Route::get('/homepage' , 'ItemController@item')->name('Items');
+Route::get('/', [ItemController::class,'index'])->name('item');
+Route::get('/homepage', 'Itemcontroller@item')->name('Items');
+Route::get('/homepage' , 'ItemController@item')->name('Items');
 
 Route::get('/', function () {
     return view('homepage');

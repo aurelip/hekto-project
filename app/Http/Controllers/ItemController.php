@@ -11,6 +11,6 @@ class ItemController extends Controller
     {
         $data = Item::all();
 
-        return view('home' , ['items'=>$data]);
+        return view('homepage' , ['items'=>$data]);
     }
 }

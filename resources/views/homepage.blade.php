@@ -3,7 +3,8 @@
 <title>Home Page</title>
 <x-swiper/>
 <h1 class=" aureli papers text-4xl mt-12 font-bold text-center ">Featured Products</h1>
-@if (!empty($items))
+<x-featurescard/>
+{{-- @if (!empty($items))
 @foreach ($Item as $post)
 <div style="box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1); gap-4">
     <div class=" bg-[#F6F7FB] w-56 h-64 ">
@@ -47,7 +48,7 @@
 
 </div>
 @endforeach
-@endif
+@endif --}}
 <h1 class=" aureli papers text-4xl mt-12 font-bold text-center ">Latest Products</h1>
 <x-list/>
 <x-latestproductsII/>
@@ -57,6 +58,66 @@
 <h1 class="aureli papers text-4xl mt-12 font-bold text-center ">Trending Products</h1>
 <x-trendingproducts/>
 <x-trending2/>
+@if (!empty($items))
+@foreach ($Item as $post)
+<div>
+    <div>
+        <div class="bg-[#F7F7F7] w-[270px] h-[236px] " style="box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1); "><img class="pl-[40px] pt-[46px] " src="img\image1171.png " alt=" "></div>
+        <div class="bg-[#2F1AC4] w-[270px] h-[125px] grid text-center " style="background: #FFFFFF; box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1); ">
+            <a class="papers font-bold text-lg pt-4 " href="# ">{{$post->name}}</a>
+            <a class="papers " href="# ">$26.00 </a>
+            <a class="eko " href="# "><s>$42.00 </s></a>
+        </div>
+    </div>
+</div>
+@endforeach
+@endif
+{{-- '@if(!empty($items))
+@foreach ($Item as $post)
+
+<div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 justify-center mt-[39px] gap-10 xl:flex place-items-center mx-auto ">
+    <div class="bg-[#FFF6FB] w-[420px] h-[270px] " style="box-shadow: 0px 8px 40px rgba(49, 32, 138, 0.05); ">
+        <h1 class="aureli papers text-2xl font-bold pt-[34px] pl-6 ">23% off in all products</h1>
+        <a class="underline colour pl-6 " href="# ">Shop Now</a>
+        <img class="pl-[201px] -pt-10 " src="img\image1162.png " alt=" ">
+    </div>
+    <div class="bg-[#EEEFFB] w-[420px] h-[270px] " style="box-shadow: 0px 8px 40px rgba(49, 32, 138, 0.05); ">
+        <h1 class="aureli papers text-2xl font-bold pt-[34px] pl-6 ">23% off in all products</h1>
+        <a class="underline colour pl-6 " href="# ">View Collection</a>
+        <img class="pl-[102px] pt-4 " src="img\image1161.png " alt=" ">
+    </div>
+    <div class="space-y-4">
+        <div class="flex ">
+            <div class="w-[107px] h-[77px] bg-[#F5F6F8] ">
+                <img class="px-5 " src="img\image30.png " alt=" ">
+            </div>
+            <div>
+                <a href="# " class="aureli papers text-base font-bold ">Executive Seat chair</a>
+                <p class="papers line-through ">{{$post->code}}</p>
+            </div>
+        </div>
+        <div class="flex ">
+            <div class="w-[107px] h-[77px] bg-[#F5F6F8] ">
+                <img class="px-5 " src="img\image19.png " alt=" ">
+            </div>
+            <div>
+                <a href="# " class="aureli papers text-base font-bold ">Executive Seat chair</a>
+                <p class="papers line-through ">$32.00</p>
+            </div>
+        </div>
+        <div class="flex ">
+            <div class="w-[107px] h-[77px] bg-[#F5F6F8] ">
+                <img class="px-5 " src="img\image28.png " alt=" ">
+            </div>
+            <div>
+                <a href="# " class="aureli papers text-base font-bold ">Executive Seat chair</a>
+                <p class="papers line-through ">$32.00</p>
+            </div>
+        </div>
+    </div>
+</div>
+@endforeach
+@endif' --}}
 <h1 class="aureli papers text-4xl mt-12 font-bold text-center ">Discount Items</h1>
 <div>
     <ul class="mt-6 text-center sm:flex justify-center gap-12 papers ">
