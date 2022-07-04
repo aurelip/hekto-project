@@ -4,7 +4,6 @@
 <x-swiper/>
 <h1 class=" aureli papers text-4xl mt-12 font-bold text-center ">Featured Products</h1>
 <x-featurescard/>
-
 <h1 class=" aureli papers text-4xl mt-12 font-bold text-center ">Latest Products</h1>
 <x-list/>
 <x-latestproductsII/>
@@ -30,7 +29,7 @@
 </div>
 <x-discountitems/>
 <h1 class="aureli papers text-4xl mt-12 font-bold text-center ">Top Categories</h1>
-<x-categories2/>
+<x-swiper3/>
 <x-newslater/>
 <img class="mx-auto mt-20 " src="img\image1174.png " alt=" ">
 <h1 class="aureli papers lg:text-4xl mt-12 font-bold text-center ">Latest Blog</h1>
