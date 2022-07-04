@@ -117,7 +117,7 @@
                 <a href="#" class="hover:text-pink-800">Shop</a>
             </li>
             <li>
-                <a href="#" class="hover:text-pink-800">Contact</a>
+                <a href="contactpage" class="hover:text-pink-800">Contact</a>
             </li>
         </ul>
       </div>

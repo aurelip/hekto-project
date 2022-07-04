@@ -17,7 +17,7 @@ class ItemSeeder extends Seeder
     public function run()
     {
         //
-        DB::table('items')->insert([
+        DB::table('item')->insert([
             [
                 'name' => 'karrige',
                 "price" => "42.12",
