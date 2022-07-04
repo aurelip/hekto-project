@@ -3,7 +3,7 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
-use Illuminate\Database\Seeder;
+use Illuminate\Database\seeder;
 use Illuminate\Support\Facades\DB;
 use app\Http\Controllers\ItemController;
 
@@ -17,7 +17,7 @@ class ItemSeeder extends Seeder
     public function run()
     {
         //
-        DB::table('item')->insert([
+        DB::table('items')->insert([
             [
                 'name' => 'karrige',
                 "price" => "42.12",
@@ -25,7 +25,7 @@ class ItemSeeder extends Seeder
                 "image" => "img\image28.png",
             ],
             [
-                'name' => 'karrite2',
+                'name' => 'karritge',
                 "price" => "45.05",
                 "code" => " Y523201",
                 "image" => "https://www.familyhandyman.com/wp-content/uploads/2022/02/Danish-modern-chair-FH22MAR_616_53_078.jpg?resize=768,768",

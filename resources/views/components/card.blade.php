@@ -1,4 +1,4 @@
-<div class="mt-12 2xl:ml-[374px] xl:ml-44 mx-14 space-y-12">
+{{-- <div class="mt-12 2xl:ml-[374px] xl:ml-44 mx-14 space-y-12">
     <div class="grid md:inline-flex gap-4 ">
         <img src="img\rectangles32.png" alt=" ">
         <div>
@@ -63,4 +63,4 @@
             </div>
         </div>
     </div>
-</div>
+</div> --}}

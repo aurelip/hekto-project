@@ -1,4 +1,4 @@
-<div class="swiper mySwiperClass2">
+{{-- <div class="swiper mySwiperClass2">
     <div class="swiper-wrapper">
         <div class="swiper-slide">
             <x-featurescard />
@@ -31,4 +31,4 @@
         border-radius: 50px;
         background-color: #FB2E86;
             }
-</style>
+</style> --}}

@@ -7,10 +7,10 @@ use App\Models\Item;
 class ItemController extends Controller
 {
     //
-    function index()
+    public function index()
     {
         $data = Item::all();
 
-        return view('homepage' , ['items'=>$data]);
+        return view('homepage' , compact('data'));
     }
 }
