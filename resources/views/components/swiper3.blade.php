@@ -28,9 +28,9 @@
 </script>
 
 <style>
-    .mySwiperClass-pagination-bullet {
+    .swiper1-pagination-bullet {
         border-radius: 0x;
-        background-color: #2b7e2f;
+        background-color: #2bae1f;
         transform:rotate(-45deg);
             }
 </style>

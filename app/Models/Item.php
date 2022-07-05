@@ -4,6 +4,8 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Builder;
+
 
 class Item extends Model
 {
@@ -15,4 +17,6 @@ class Item extends Model
         'code',
         'image',
     ];
+
+    public $timestamps = false;
 }

@@ -1,4 +1,4 @@
-{{-- <div class="swiper mySwiperClass2">
+<div class="swiper mySwiperKlass">
     <div class="swiper-wrapper">
         <div class="swiper-slide">
             <x-featurescard />
@@ -14,7 +14,7 @@
 </div>
 <script>
     window.onload = function() {
-        const swiper = new Swiper('.mySwiperClass2', {
+        const swiper = new Swiper('.mySwiperKlass', {
             spaceBetween: 15,
             pagination: {
                 el: ".swiper-pagination",
@@ -27,8 +27,8 @@
 </script>
 
 <style>
-    .swiper-pagination-bullet {
+    .swiper1-pagination-bullet {
         border-radius: 50px;
-        background-color: #FB2E86;
+        background-color: #31afaf;
             }
-</style> --}}
+</style>

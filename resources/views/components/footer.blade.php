@@ -3,9 +3,9 @@
     <div class="grid grid-cols-2 lg:grid-cols-4 mx-8 2xl:mx-96 gap-8 lg:gap-10 pt-12 ">
         <div class="gap-12 ">
             <h1 class=" text-2xl papers aureli font-bold ">Hekto</h1>
-            <div class="flex ">
+            <form class="flex ">
                 <input class=" border-2 w-10 lg:w-40 h-8 " type="text " placeholder="Enter Email Address ">
-                <button class="bg-pink-700 w-20 h-8 text-white ">Sign up</button></div>
+                <a href="/registration" class="bg-pink-700 w-20 h-8 text-white ">Sign up</a></form>
             <p class="gap-4 ">Contact Info <br> 17 Princess Road, London,
                 <br>Greater London NW1 8JR, UK</p>
         </div>

@@ -3,7 +3,7 @@
 <title>Home Page</title>
 <x-swiper/>
 <h1 class=" aureli papers text-4xl mt-12 font-bold text-center ">Featured Products</h1>
-<x-featurescard/>
+<x-swiper2/>
 <h1 class=" aureli papers text-4xl mt-12 font-bold text-center ">Latest Products</h1>
 <x-list/>
 <x-latestproductsII/>
@@ -37,7 +37,7 @@
 <div>
     <div class="mt-12 2xl:ml-[374px] xl:ml-44 mx-14 space-y-12">
         <div class="grid md:inline-flex gap-4 ">
-            <img src="img\rectangles32.png" alt=" ">
+            <img class="w-40 h-40" src="{{$post->image}}" alt="">
             <div>
                 <div class="flex">
                     <h1 class="aureli papers font-bold ">{{$post->name}}</h1>

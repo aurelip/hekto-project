@@ -3,8 +3,9 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
-use Illuminate\Database\seeder;
+use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
+use App\Models\Item;
 use app\Http\Controllers\ItemController;
 
 class ItemSeeder extends Seeder
