@@ -5,6 +5,8 @@ use App\Http\Controllers\CustomAuthController;
 use App\Http\Controllers\ItemController;
 use Illuminate\Routing\RouteRegistrar;
 
+use App\Http\Controllers\ContactController;
+
 use function PHPUnit\Framework\returnSelf;
 
 /*
@@ -59,3 +61,6 @@ Route::get('registration', [CustomAuthController::class, 'registration'])->name(
 Route::post('custom-registration', [CustomAuthController::class, 'customRegistration'])->name('register.custom');
 Route::get('signout', [CustomAuthController::class, 'signOut'])->name('signout');
 Route::get('/search' , [ItemController::class, 'search'])->name('search');
+
+Route::get('contact-us' ,[ContactController::class, 'contact-us'])->name('contact-us');
+Route::post('contact-us', [ContactController::class, 'store'])->name('contact.us.store');

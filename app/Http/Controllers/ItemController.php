@@ -25,12 +25,8 @@ class ItemController extends Controller
 
         $items = Item::query()
             ->where('name', 'LIKE', "%{$search}%")
-            ->get()
-            ;
- $empty =$items->isNotEmpty()
- ;
+            ->get();
+        $empty = $items->isNotEmpty();
         return view('search', compact('items', 'empty'));
-
     }
-
 }

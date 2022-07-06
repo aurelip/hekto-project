@@ -79,7 +79,7 @@ class CustomAuthController extends Controller
             'password' => Hash::make($data['password'])
         ]);
     }
- 
+
 
     public function dashboard()
     {
@@ -95,6 +95,6 @@ class CustomAuthController extends Controller
         Session::flush();
         Auth::logout();
 
-        return Redirect('/');
+        return Redirect('login');
     }
 }
